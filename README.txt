@@ -20,7 +20,8 @@ For fpca with delta: ARLi_init_delta:helper function for initiate the CUSUM char
                      Get_ARLi_delta:Get running length
                      df_hist_delta:Estimate control limit L
                      cusum_df_delta:helper function for redistribution
-		     
+
+
 2. fpca_ARL.R: include methods required for ARL_1 for fpca chart
 For fpca: dpca_score:calculate FPC scores from a profile 
 	  dpca_est:estimate FPCA model and parameters
