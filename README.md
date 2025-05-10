@@ -16,11 +16,10 @@ Demo Folders have 6 other files :
 
 
 1.top_delta_ARL.R: include methods required for ARL_1 for fpca Δ = 0.01,0.1,0.5
-For foca with delta: ARLi_init_delta:helper function for initiate CUSUM chart 
+For fpca with delta: ARLi_init_delta:helper function for initiate the CUSUM chart 
                      Get_ARLi_delta:Get running length
                      df_hist_delta:Estimate control limit L
                      cusum_df_delta:helper function for redistribution
-		     
 2. fpca_ARL.R: include methods required for ARL_1 for fpca chart
 For fpca: dpca_score:calculate FPC scores from a profile 
 	  dpca_est:estimate FPCA model and parameters
@@ -28,7 +27,6 @@ For fpca: dpca_score:calculate FPC scores from a profile
           Get_ARLi:Get running length
           df_hist:Estimate control limit L
           cusum_df:helper function for redistribution
-
 3.mfpca_ARL.R: include methods required for ARL_1 for proposed method 
 For proposed: mfpca_score:calculate MFPC scores from a multi-profile samples
 	      mfpca_est:estimate MFPCA model and parameters
