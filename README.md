@@ -1,4 +1,4 @@
-# Adaptive-sampling-for-multi-profile-data
+# Adaptive_sampling_for_multi-profile
 
 To replicate the simulation result, one just need to run 'Int_simulation.R" file. We mainly used MASS and Splines packages, also use source function to access the other R file. 
 
